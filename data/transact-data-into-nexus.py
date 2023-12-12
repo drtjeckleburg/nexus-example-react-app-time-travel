@@ -11,7 +11,7 @@ data_rows = df.iloc[1:, :]
 
 # Convert to dictionary
 result = {}
-
+print("PICKLES")
 for _, row in data_rows.iterrows():
     country = row[0]
     for i in range(1, len(row)):
